@@ -1,0 +1,18 @@
+/*******************************
+*
+* Garrett Matthews
+* CSS for Salad Generator
+*
+*
+*******************************/
+
+table{border-width: medium; border-style: solid; border-collapse: collapse;}
+td {border-width: medium;border-color: black; border-style: solid; padding: 30px; border-collapse: collapse; width: 25%;}
+.blank {background-color: black;}
+.sweet{background-color: gray;}
+.savory{background-color: darkgray; color: white;}
+.dressing{background-color: gray;}
+.saladNum1{background-color: gray;}
+.saladNum2{background-color: darkgray; color: white;}
+.grid1{background-color: purple; color: white;}
+.grid2{background-color: violet;}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Garrett Matthews">
+        <meta name="description" content="Random Salad Generator for Katie">
+        <title>Random Salad Generator</title>
+        <link rel="stylesheet" href="salad_generator_style.css">
+        <script src="salad_generator_script.js"></script>
+    </head>
+    <body onload="generateSalad()">
+        <h1>Katies Salad Generator</h1>
+        <hr>
+        <p>Press the generate salads button below reset the table. Let me know if you need more salad options added! I hope to add a way to allow you to do that on your end manually! I love you :)</p>
+       <!-- <p>If you want to add ingredients to the salad, enter them into the boxes below and click submit</p>
+        <form>
+            <input type="text" id="sweet" placeholder="Sweet">
+            <input type="text" id="savory" placeholder="Savory">   
+            <input type="text" id="dressing" placeholder="Dressing">
+            <input type="button" value="Add Ingredients" onclick="addItems(this.form)">
+        </form>
+        <hr> -->
+        <table id="salad" ></table>
+        <input type="button" value="Generate Salads" onclick="generateSalad()">
+    </body>
+</html>
